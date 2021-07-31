@@ -43,7 +43,7 @@ with lib;
   };
 
   config = {
-    environment.systemPackages = [ cfg.package ];
+    #environment.systemPackages = [ cfg.package ];
 
     users.groups.uinput = {};
 
